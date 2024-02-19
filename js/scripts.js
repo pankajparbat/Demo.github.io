@@ -146,8 +146,7 @@ $(document).ready(function () {
     s.parentNode.insertBefore(po, s);
 
     for (var i = 0; i < share_bar.length; i++) {
-        var html = '<iframe allowtransparency="true" frameborder="0" scrolling="no"' +
-            'src="https://platform.twitter.com/widgets/tweet_button.html?url=' + encodeURIComponent(window.location) + '&amp;text=' + encodeURIComponent(document.title) + '&amp;via=ramswarooppatra&amp;hashtags=ramandantara&amp;count=horizontal"' +
+        var html = '<iframe allowtransparency="true" frameborder="0" scrolling="no"' + encodeURIComponent(window.location) + '&amp;text=' + encodeURIComponent(document.title) + '&amp;via=ramswarooppatra&amp;hashtags=ramandantara&amp;count=horizontal"' +
             'style="width:105px; height:21px;">' +
             '</iframe>' +
 
